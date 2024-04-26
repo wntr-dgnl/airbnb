@@ -26,7 +26,7 @@ df['Price'] = '$' + df['price'].astype(str)
 
 st.image(image, use_column_width='auto')
 
-st.header('Check out our listings: ')
+st.header('Check Out Our Listings: ')
 
 
 
