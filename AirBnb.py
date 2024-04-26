@@ -37,6 +37,8 @@ st.dataframe(df[selected_columns].head(10))
 
 st.write('---')
 
+st.subheader('Or Browse Our Selection: ')
+
 boroughs = df['Borough'].unique()
 selected_borough = st.selectbox('Select a Borough: ', boroughs)
 
